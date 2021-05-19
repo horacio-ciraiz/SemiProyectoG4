@@ -1,0 +1,72 @@
+# Manual de Configuracion
+# Universidad de San Carlos de Guatemala
+# Curso Seminario de Sistemas 1
+## Estudiantes
+## Horacio Ciraiz Orellana - 201513758
+## Alex Lopez Rosa - 201602999
+
+
+<center><h1>  Manual de Usuario </h1></center>
+
+<center><h1>  Objetivos </h1></center>
+El objetivo del manual de usuario es poder guiar al usuario sobre el uso correcto correcto de la aplicacion Web covida asi como darle a conocer el fin de esta aplicacion y asi el usuario pueda tener un mejor entendimiento de la misma.
+
+
+
+<center><h1>  Descripcion </h1></center>
+
+La Apliacion Web Covida nacio de la idea  por la problematica actual por la cual atraviesa la poblacion mundial. De acuerdo a investigaciones y analisis de datos, una gran parte de la poblacion  que resulto positiva a covid fue resultado de alguna reunion donde estuvo en contacto con una persona positiva. La problematica principal es que las personas que estuvieron en contacto no supieron notificar de forma facil y precisa cuando estas salieron positivas al examen de esta enfermadad , por lo cual las otras personas victimas de este encuentro no supieron tomar medidas correctas para no contaminar ,ya que estas no fueron notificadas.
+
+Por lo tanto se ha desarrollado la aplicacion para que con solo una fotografia de alguna reunion o actividad donde se tuvo contacto con un grupo de personas la aplicacion pueda reconocer las personas que estuvieron en dicha reunion y notificarles que fueron expuestas a una persona contagiada y que deben tomar medidas para salvaguardar su vida y la de los demas.
+
+
+
+<h2>Uso de la Aplicacion WEB </h2>
+
+<h2>Aplicacion WEB </h2>
+
+<center><h3> Login </h3></center>
+Para hacer uso de la aplicacion debe de estar registrado previamente, luego debe llenar las casillas 
+<center>
+<img src="login.png" alt="drawing" style="width:10px;"/>
+</center>
+
+<center><h3> Registro </h3></center>
+<center>
+
+Para el registro de nuevos usuarios, debe presionar el boton de registro y llenar las casillas para completar el formulario y registrarse en la aplicacion
+<center>
+<img src="registro.png" alt="drawing" style="width:10px;"/>
+</center>
+
+<center><h3> Inicio con Reconocimiento </h3></center>
+<center>
+<img src="reconocimiento.png" alt="drawing" style="width:10px;"/>
+</center>
+
+La aplicacion puede iniciar sesion utilizando la camara del dispositivo para  mas facilidad de uso
+
+
+<center><h3>Inicio </h3></center>
+<center>
+En el inicio de la aplicacion se mostraran los datos de la persona 
+<center>
+<img src="inicio.png" alt="drawing" style="width:10px;"/>
+</center>
+
+<center><h3>Analisis de Imagen Covidiano  </h3></center>
+<center>
+Si la persona tiene sospechas que tiene covid o una prueba positiva y ha estado en reuniones, puede subir una foto con todas las personas en ella para que el sistema reconozca y advierta a estas que fueron expuestas al virus
+
+<center>
+<img src="covidiano.png" alt="drawing" style="width:10px;"/>
+</center>
+
+
+
+<center><h3>ChatBot</h3></center>
+<center>
+<img src="chatbot.png" alt="drawing" style="width:10px;"/>
+</center>
+
+

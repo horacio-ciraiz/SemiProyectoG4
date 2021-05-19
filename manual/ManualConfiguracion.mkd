@@ -1,0 +1,127 @@
+# Manual de Configuracion
+# Universidad de San Carlos de Guatemala
+# Curso Seminario de Sistemas 1
+## Estudiantes
+## Horacio Ciraiz Orellana - 201513758
+## Alex Lopez Rosa - 201602999
+
+<center><h1>  Arquitectura </h1></center>
+<center>
+[![N|Solid](Arquitectura.png)](Arquitectura Proyecto)
+</center>
+
+<h2>Base de Datos RDS:</h2>
+Se implemento una Base RDS con motor MySQL para el almacenamiento de datos de la aplicacion web
+
+<center>
+<img src="rds.png" alt="drawing" style="width:10px;"/>
+</center>
+
+<h2>Servidores:</h2>
+Se implementaron 1 servidores Web con tecnologia NodeJS para su elaboracion 
+<center>
+<img src="balanceador.png" alt="drawing" style="width:10px;"/>
+</center>
+
+<h2>Aplicacion Web:</h2>
+Se desarrollo la Aplicacion Web con tecnologia React para su facil implementacion,manejo y desarrollo.
+
+<center>
+<img src="react.png" alt="drawing" style="width:10px;"/>
+</center>
+
+<center><h1>  Usuario IAM </h1></center>
+<h2>RDS </h2>
+Se configuro un Usuario para la Base de Datos "Usuario_DB_G4" con la politica de "AmazonRDSFullAccess" para el control de la base de datos
+
+<h2>EC2</h2>
+Se configuro un Usuario para el control de las EC2 "Usuario_EC2_G4" con la politica de "AmazonEC2FullAccess" para la gestion de las instancaias EC2
+
+<h2>S3 </h2>
+Se configuro un Usuario para la gestion de los distintos Buckets "Usuario_S3_G4" con la politica de "AmazonS3FullAccess" para el control de el almacenamiento.
+
+<h2>Amazon Lex </h2>
+Se configuro el servicio para la gestion y analizis de texto para diseñar y construir la interfaz de conversacion ,  el chatbot a utilizar en este proyecto.
+Las 3 configuraciones del chatbot a implementar fueron el apartar un vuelo en una agencia de vuelo, solicitar el envio de un producto a una venta de flores y el alquilar un vehiculo.
+
+<h2>Amazon Rekognition </h2>
+Se configuro el servicio de analisis de imagenes y video para recnocimiento de imagenes e inicio de sesion de la aplicacion.
+Facial Analysis: para detectar atributos de un rostro cuando aparece en una fotografia.
+
+Compare Faces: Comparar rostros/ caras en una imagen de origen con una imagen destino.
+
+
+<h2>Amazon Translate </h2>
+Se configuro el servicio de traduccion automatica que ofrece traduccion automatica entre idiomas.
+
+
+<center><h1>  Caputuras de Pantalla </h1></center>
+
+<h2>S3:Bucket Imagenes </h2>
+
+<center>
+<img src="img1.png" alt="drawing" style="width:10px;"/>
+</center>
+ 
+<h2>S3:Bucket Pagina Web </h2>
+
+<center>
+<img src="img2.png" alt="drawing" style="width:10px;"/>
+</center>
+
+
+ 
+<h2>Tabla RDS </h2>
+
+<center>
+<img src="img6.png" alt="drawing" style="width:10px;"/>
+</center>
+
+<h2>Instancia RDS </h2>
+
+<center>
+<img src="img7.png" alt="drawing" style="width:10px;"/>
+</center>
+
+<h2>Instancia Amazon Lex e Intents </h2>
+
+<center>
+<img src="img8.png" alt="drawing" style="width:10px;"/>
+</center>
+
+
+<h2>Aplicacion WEB </h2>
+
+<center><h3> Login </h3></center>
+<center>
+<img src="login.png" alt="drawing" style="width:10px;"/>
+</center>
+
+<center><h3> Registro </h3></center>
+<center>
+<img src="registro.png" alt="drawing" style="width:10px;"/>
+</center>
+
+<center><h3> Inicio con Reconocimiento </h3></center>
+<center>
+<img src="reconocimiento.png" alt="drawing" style="width:10px;"/>
+</center>
+
+<center><h3>Inicio </h3></center>
+<center>
+<img src="inicio.png" alt="drawing" style="width:10px;"/>
+</center>
+
+<center><h3>Persona con Covid Notificada </h3></center>
+<center>
+<img src="covidiano.png" alt="drawing" style="width:10px;"/>
+</center>
+
+
+
+<center><h3>ChatBot</h3></center>
+<center>
+<img src="chatbot.png" alt="drawing" style="width:10px;"/>
+</center>
+
+
